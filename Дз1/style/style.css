@@ -71,3 +71,115 @@ body{
     line-height: 49px;
     color: #FFFFFF;
 }
+
+.square{
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    position: absolute;
+}
+
+.one{
+    left: 0px;
+    top: 1259px;
+}
+
+.two{
+    left: 0px;
+    top: 1505px;
+}
+
+.three{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    top: 1394px;
+}
+
+.text{
+    padding-top: 221px;
+}
+
+.text_lorem{
+    margin: 0 auto;
+    width: 696px;
+    height: 246px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.wrapper{
+    margin-top: 216px;
+    position: relative;
+}
+
+.wrapper::before{
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #5C98AB;
+    top: -50px;
+    left: -50px;
+}
+
+.wrapper::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #BFDEFB;
+    right: -120px;
+}
+
+.form_section{
+    max-width: 647px;
+    margin: 123px auto 0px;
+}
+
+.input_wrapper{
+    position: relative;
+    margin-bottom: 41px;
+}
+
+.input{
+    width: 647px;
+    height: 96px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 36px 0 14px 33px;
+    box-sizing: border-box;
+}
+
+.label{
+    position: absolute;
+    left: 31px;
+    top: 14px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.input::placeholder{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+}
+
+.form_button{
+    width: 647px;
+    height: 92px;
+    background-color: #5C98AB;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-bottom: 200px;
+}
